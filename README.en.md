@@ -397,7 +397,7 @@ The long-term objective is to provide a dedicated workspace for investigations r
 
 # License
 
-Copyright © 2026 Jou Santos Aveiro.
+Copyright © 2026 Jorge Santos
 
 All Rights Reserved.
 
@@ -413,7 +413,7 @@ For additional information, please refer to the **LICENSE** file included in thi
 
 # Author
 
-## Jou Santos Aveiro
+## Jorge Santos
 
 Developer of IberoTOR.
 
@@ -439,6 +439,6 @@ OSINT Workspace for Anonymous Investigations
 
 <br><br>
 
-© 2026 Jou Santos Aveiro · All Rights Reserved
+© 2026 Jorge Santos · All Rights Reserved
 
 </p>
