@@ -672,7 +672,14 @@ Acceso rápido a tus asistentes de Inteligencia Artificial
 </div>
 </div>
 </section>
-<input id="search" placeholder="🔍 Buscar herramienta..."/>
+<input
+    id="search"
+    type="search"
+    autocomplete="off"
+    autocorrect="off"
+    autocapitalize="off"
+    spellcheck="false"
+    placeholder="🔍 Buscar herramienta...">
 <div id="quickNav">
 <button onclick="goSection(0)">📡 Infraestructura</button>
 <button onclick="goSection(1)">🌐 DNS</button>
@@ -1720,6 +1727,25 @@ document.getElementById("btnRecientes")
 
 });
 
+// =====================================
+// LIMPIAR BUSCADOR AL CARGAR
+// =====================================
+
+window.addEventListener("pageshow", () => {
+
+    search.value = "";
+
+    searchTools();
+
+});
+
+window.addEventListener("DOMContentLoaded", () => {
+
+    search.value = "";
+
+    searchTools();
+
+});
 
 </script>
 </body>
