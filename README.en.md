@@ -265,7 +265,7 @@ Typical users include:
 
 ## Main Window
 
-<img src="docs/images/main-window.png" alt="Main Window">
+<img src="docs/images/banner.png" alt="Main Window">
 
 ---
 
@@ -351,18 +351,6 @@ Its modular design makes it easy to expand the platform with new categories, add
 The long-term objective is to provide a dedicated workspace for investigations requiring anonymous browsing and efficient access to resources distributed across both the public Internet and the Tor network.
 
 ---
-
-# Roadmap
-
-## Version 1.0
-
-- [x] Customized homepage.
-- [x] Resource categorization.
-- [x] Integrated search.
-- [x] Bookmark management.
-- [x] Resource history.
-- [x] Quick access to Onion services.
-- [x] Native IberOSINT integration.
 
 ## Future Development
 
