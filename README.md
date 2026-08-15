@@ -352,18 +352,6 @@ El objetivo del proyecto es ofrecer un entorno especializado para investigacione
 
 ---
 
-# Roadmap
-
-## Versión 1.0
-
-- [x] Homepage personalizada.
-- [x] Organización por categorías.
-- [x] Buscador integrado.
-- [x] Gestión de favoritos.
-- [x] Historial de recursos.
-- [x] Acceso rápido a servicios Onion.
-- [x] Integración con IberOSINT.
-
 ## Desarrollo futuro
 
 - [ ] Nuevas categorías de recursos.
