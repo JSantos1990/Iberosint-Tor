@@ -363,26 +363,6 @@ The long-term objective is to provide a dedicated workspace for investigations r
 
 ---
 
-# Screenshots
-
-## Main Window
-
-<img src="docs/images/main-window.png" alt="Main Window">
-
----
-
-## Customized Homepage
-
-<img src="docs/images/homepage.png" alt="Customized Homepage">
-
----
-
-## Onion Services
-
-<img src="docs/images/onion-resources.png" alt="Onion Services">
-
----
-
 # License
 
 Copyright © 2026 Jorge Santos
