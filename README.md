@@ -375,26 +375,6 @@ El objetivo del proyecto es ofrecer un entorno especializado para investigacione
 
 ---
 
-# Capturas
-
-## Pantalla principal
-
-<img src="docs/images/banner.png" alt="Main Window">
-
----
-
-## Homepage personalizada
-
-<img src="docs/images/homepage.png" alt="Homepage">
-
----
-
-## Recursos Onion
-
-<img src="docs/images/onion-resources.png" alt="Onion Resources">
-
----
-
 # Licencia
 
 Copyright © 2026 Jorge Santos
