@@ -265,7 +265,7 @@ Entre ellos:
 
 ## Pantalla principal
 
-<img src="docs/images/main-window.png" alt="Main Window">
+<img src="docs/images/banner.png" alt="Main Window">
 
 ---
 
