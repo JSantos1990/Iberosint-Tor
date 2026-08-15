@@ -385,7 +385,7 @@ El objetivo del proyecto es ofrecer un entorno especializado para investigacione
 
 ## Homepage personalizada
 
-<img src="docs/images/homepage.png" alt="Homepage">
+<img src="docs/images/banner.png" alt="Homepage">
 
 ---
 
