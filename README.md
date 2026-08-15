@@ -379,7 +379,7 @@ El objetivo del proyecto es ofrecer un entorno especializado para investigacione
 
 ## Pantalla principal
 
-<img src="docs/images/main-window.png" alt="Main Window">
+<img src="docs/images/banner.png" alt="Main Window">
 
 ---
 
