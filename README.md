@@ -310,19 +310,41 @@ El entorno recomendado para ejecutar IberoTOR es:
 
 # Instalación
 
-Clonar el repositorio:
+IberoTOR puede utilizarse de forma independiente en Ubuntu mediante Tor Browser.
+
+## 1. Instalar Tor Browser
+
+Actualizar los repositorios del sistema:
 
 ```bash
-git clone https://github.com/JSantos1990/IberoTOR.git
-```
+sudo apt update
 
-Acceder al directorio:
+Instalar el lanzador de Tor Browser:
 
-```bash
-cd IberoTOR
-```
+sudo apt install torbrowser-launcher
 
-Ejecutar desde IberOSINT o abrir la homepage mediante Tor Browser.
+## 2. Clonar el repositorio
+
+Clonar el repositorio de IberoTOR:
+
+git clone https://github.com/JSantos1990/Iberosint-Tor.git
+
+## 3. Ejecutar IberoTOR
+
+Abrir la homepage personalizada de IberoTOR mediante Tor Browser.
+
+Puede hacerlo desde el propio navegador utilizando la opción de abrir un archivo local y seleccionando el archivo principal de la aplicación.
+
+También puede ejecutar IberoTOR directamente desde el ecosistema IberOSINT si dispone del IberOSINT Launcher instalado.
+
+Instalación recomendada
+
+Para una experiencia completa, se recomienda utilizar una de las siguientes opciones:
+
+Opción 1 — Instalación independiente: Clonar este repositorio y utilizar la homepage con Tor Browser.
+Opción 2 — Ecosistema completo: Utilizar la máquina virtual oficial de IberOSINT, que incluye IberOSINT, Lince, IberoTOR y el entorno Ubuntu ya configurado.
+
+La imagen virtual se distribuirá en formato .ova para facilitar su importación directa en Oracle VirtualBox.
 
 ---
 
