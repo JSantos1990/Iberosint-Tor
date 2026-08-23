@@ -354,31 +354,13 @@ IberoTOR puede utilizarse de forma independiente o como parte del ecosistema Ibe
 
 ---
 
-## Opción 2 — Ecosistema completo mediante máquina virtual
+## Opción 2 — Ecosistema completo
 
-Para disfrutar de la experiencia completa se recomienda utilizar la máquina virtual oficial de IberOSINT.
+IberoTOR también forma parte del ecosistema completo de IberOSINT, junto con el launcher principal, la aplicación de análisis de evidencias con inteligencia artificial Lince etc...
 
-La distribución incluye un entorno Ubuntu previamente configurado con:
+Para obtener información sobre la instalación del ecosistema completo, incluida la distribución mediante máquina virtual en formato `.ova`, consulte el repositorio principal de IberOSINT:
 
-- IberOSINT Launcher.
-- Lince.
-- IberoTOR.
-- Tor Browser.
-- Accesos directos a las aplicaciones.
-- Dependencias y entorno de ejecución previamente configurados.
-
-La máquina virtual se distribuye en formato `.ova`, lo que permite importarla directamente en Oracle VirtualBox.
-
-### Importar la máquina virtual
-
-1. Descargue el archivo `.ova` desde la sección de releases del proyecto IberOSINT.
-2. Abra Oracle VirtualBox.
-3. Seleccione **Archivo → Importar servicio virtualizado**.
-4. Seleccione el archivo `.ova` descargado.
-5. Complete el proceso de importación.
-6. Inicie la máquina virtual.
-
-Una vez iniciada, el entorno IberOSINT estará preparado para utilizarse.
+https://github.com/JSantos1990/IberOSINT
 
 ---
 
@@ -390,7 +372,7 @@ Se ofrecen dos alternativas según las necesidades del usuario:
 Clone este repositorio y utilice IberoTOR con Tor Browser.
 
 **Opción 2 — Ecosistema completo:**  
-Utilice la máquina virtual oficial de IberOSINT para disponer de IberOSINT, Lince e IberoTOR dentro de un entorno Ubuntu ya configurado.
+Consulte el repositorio principal de IberOSINT para conocer las opciones disponibles de instalación y distribución del ecosistema completo.
 
 
 ---
