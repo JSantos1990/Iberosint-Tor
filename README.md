@@ -356,7 +356,7 @@ IberoTOR puede utilizarse de forma independiente o como parte del ecosistema Ibe
 
 ## Opción 2 — Ecosistema completo
 
-IberoTOR también forma parte del ecosistema completo de IberOSINT, junto con el launcher principal, la aplicación de análisis de evidencias con inteligencia artificial Lince etc...
+IberoTOR también forma parte del ecosistema completo de IberOSINT, junto con el launcher principal, la aplicación de análisis de evidencias con inteligencia artificial Lince, IberOSINT IA, etc...
 
 Para obtener información sobre la instalación del ecosistema completo, incluida la distribución mediante máquina virtual en formato `.ova`, consulte el repositorio principal de IberOSINT:
 
