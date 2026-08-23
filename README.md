@@ -308,6 +308,89 @@ El entorno recomendado para ejecutar IberoTOR es:
 
 ---
 
+# Instalación
+
+IberoTOR puede utilizarse de forma independiente en Ubuntu mediante Tor Browser.
+
+## Opción 1 — Instalación independiente
+
+### 1. Instalar Tor Browser
+
+Actualizar los repositorios del sistema:
+
+```bash
+sudo apt update
+```
+
+Instalar Tor Browser Launcher:
+
+```bash
+sudo apt install torbrowser-launcher
+```
+
+### 2. Clonar el repositorio
+
+Clonar el repositorio oficial de IberoTOR:
+
+```bash
+git clone https://github.com/JSantos1990/Iberosint-Tor.git
+```
+
+Acceder al directorio del proyecto:
+
+```bash
+cd Iberosint-Tor
+```
+
+### 3. Ejecutar IberoTOR
+
+Abra Tor Browser y cargue el archivo principal de la homepage de IberoTOR desde el repositorio clonado.
+
+También puede abrir directamente la versión publicada de IberoTOR desde:
+
+https://jsantos1990.github.io/Iberosint-Tor/
+
+IberoTOR puede utilizarse de forma independiente o como parte del ecosistema IberOSINT.
+
+---
+
+## Opción 2 — Ecosistema completo mediante máquina virtual
+
+Para disfrutar de la experiencia completa se recomienda utilizar la máquina virtual oficial de IberOSINT.
+
+La distribución incluye un entorno Ubuntu previamente configurado con:
+
+- IberOSINT Launcher.
+- Lince.
+- IberoTOR.
+- Tor Browser.
+- Accesos directos a las aplicaciones.
+- Dependencias y entorno de ejecución previamente configurados.
+
+La máquina virtual se distribuye en formato `.ova`, lo que permite importarla directamente en Oracle VirtualBox.
+
+### Importar la máquina virtual
+
+1. Descargue el archivo `.ova` desde la sección de releases del proyecto IberOSINT.
+2. Abra Oracle VirtualBox.
+3. Seleccione **Archivo → Importar servicio virtualizado**.
+4. Seleccione el archivo `.ova` descargado.
+5. Complete el proceso de importación.
+6. Inicie la máquina virtual.
+
+Una vez iniciada, el entorno IberOSINT estará preparado para utilizarse.
+
+---
+
+## Instalación recomendada
+
+Se ofrecen dos alternativas según las necesidades del usuario:
+
+**Opción 1 — Instalación independiente:**  
+Clone este repositorio y utilice IberoTOR con Tor Browser.
+
+**Opción 2 — Ecosistema completo:**  
+Utilice la máquina virtual oficial de IberOSINT para disponer de IberOSINT, Lince e IberoTOR dentro de un entorno Ubuntu ya configurado.
 
 
 ---
