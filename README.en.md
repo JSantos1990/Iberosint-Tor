@@ -310,19 +310,69 @@ The recommended environment for running IberoTOR is:
 
 # Installation
 
-Clone the repository:
+IberoTOR can be used independently on Ubuntu through Tor Browser.
+
+## Option 1 — Standalone installation
+
+### 1. Install Tor Browser
+
+Update the system repositories:
 
 ```bash
-git clone https://github.com/JSantos1990/IberoTOR.git
+sudo apt update
+```
+
+Install Tor Browser Launcher:
+
+```bash
+sudo apt install torbrowser-launcher
+```
+
+### 2. Clone the repository
+
+Clone the official IberoTOR repository:
+
+```bash
+git clone https://github.com/JSantos1990/Iberosint-Tor.git
 ```
 
 Navigate to the project directory:
 
 ```bash
-cd IberoTOR
+cd Iberosint-Tor
 ```
 
-Launch IberoTOR directly from the IberOSINT Launcher or open the customized homepage using Tor Browser.
+### 3. Launch IberoTOR
+
+Open Tor Browser and load the main file of the customized IberoTOR homepage from the cloned repository.
+
+You can also access the published version of IberoTOR directly at:
+
+https://jsantos1990.github.io/Iberosint-Tor/
+
+IberoTOR can be used independently or as part of the IberOSINT ecosystem.
+
+---
+
+## Option 2 — Complete ecosystem
+
+IberoTOR is also part of the complete IberOSINT ecosystem, together with the main launcher, Lince, the AI-powered evidence analysis application, IberOSINT IA, etc.
+
+For information about installing the complete ecosystem, including distribution through a virtual machine in `.ova` format, please refer to the main IberOSINT repository:
+
+https://github.com/JSantos1990/IberOSINT
+
+---
+
+## Recommended installation
+
+Two alternatives are available depending on the user's needs:
+
+**Option 1 — Standalone installation:**  
+Clone this repository and use IberoTOR with Tor Browser.
+
+**Option 2 — Complete ecosystem:**  
+Refer to the main IberOSINT repository for information about the available installation and distribution options for the complete ecosystem.
 
 ---
 
