@@ -79,30 +79,6 @@ Entre sus principales escenarios de utilización destacan:
 
 ---
 
-# Flujo de trabajo
-
-```
-
-                  IberOSINT Launcher
-                           │
-                           ▼
-                     Launch IberoTOR
-                           │
-                           ▼
-                Custom OSINT Homepage
-                           │
-          ┌────────────────┼────────────────┐
-          │                │                │
-          ▼                ▼                ▼
-   Surface Web       Onion Services     OSINT Tools
-          │                │                │
-          └────────────────┼────────────────┘
-                           ▼
-                    Intelligence Gathering
-
-```
-
-IberoTOR proporciona un punto de acceso único para consultar recursos distribuidos entre Internet convencional y la red Tor, reduciendo el tiempo necesario para localizar herramientas durante una investigación.
 
 ---
 
@@ -143,6 +119,8 @@ La plataforma centraliza recursos OSINT, servicios Onion y herramientas especial
 ```
 
 La arquitectura mantiene una experiencia de uso homogénea con el resto del ecosistema IberOSINT, incorporando las capacidades específicas que ofrece Tor Browser.
+
+IberoTOR proporciona un punto de acceso único para consultar recursos distribuidos entre Internet convencional y la red Tor, reduciendo el tiempo necesario para localizar herramientas durante una investigación.
 
 ---
 
