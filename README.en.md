@@ -180,22 +180,6 @@ Examples include:
 
 ---
 
-# Integrated Features
-
-IberoTOR includes several features designed to improve investigation workflows.
-
-These include:
-
-- Customized homepage.
-- Integrated search.
-- Bookmark management.
-- Resource history.
-- Category-based organization.
-- Quick access to Onion services.
-- Native integration with the IberOSINT Launcher.
-
-Together, these features reduce the time required to locate relevant resources while maintaining an organized investigation environment.
-
 ---
 
 # Privacy
@@ -218,6 +202,8 @@ The objective is not to replace Tor Browser, but to provide investigators with a
 - Native IberOSINT integration.
 - Modular architecture.
 - Designed for anonymous investigations.
+
+Together, these features reduce the time required to locate relevant resources while maintaining an organized investigation environment.
 
 ---
 
