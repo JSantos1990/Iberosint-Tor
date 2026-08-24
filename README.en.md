@@ -79,31 +79,6 @@ Typical use cases include:
 
 ---
 
-# Investigation Workflow
-
-```
-
-                  IberOSINT Launcher
-                           │
-                           ▼
-                    Launch IberoTOR
-                           │
-                           ▼
-                  Custom OSINT Homepage
-                           │
-         ┌─────────────────┼─────────────────┐
-         │                 │                 │
-         ▼                 ▼                 ▼
-   Surface Web      Onion Services     OSINT Resources
-         │                 │                 │
-         └─────────────────┼─────────────────┘
-                           ▼
-               Intelligence Gathering
-
-```
-
-IberoTOR provides investigators with a single access point for resources distributed across both the public Internet and the Tor network, helping streamline information gathering while maintaining an organized workflow.
-
 ---
 
 ---
@@ -143,6 +118,8 @@ Its design combines a customized homepage, categorized resources and privacy-ori
 ```
 
 This architecture provides a familiar workflow while extending the investigation capabilities offered by Tor Browser.
+
+IberoTOR provides investigators with a single access point for resources distributed across both the public Internet and the Tor network, helping streamline information gathering while maintaining an organized workflow.
 
 ---
 
