@@ -181,22 +181,6 @@ Entre los recursos disponibles pueden encontrarse:
 
 ---
 
-# Herramientas integradas
-
-La plataforma incorpora diversas funciones destinadas a mejorar la experiencia del investigador.
-
-Entre ellas destacan:
-
-- Homepage personalizada.
-- Buscador integrado.
-- Gestión de favoritos.
-- Historial de recursos utilizados.
-- Organización por categorías.
-- Acceso rápido a servicios Onion.
-- Integración con IberOSINT Launcher.
-
-Todas estas funciones buscan minimizar el tiempo necesario para acceder a recursos relevantes durante una investigación.
-
 ---
 
 # Privacidad
@@ -219,6 +203,8 @@ El objetivo del proyecto no consiste en modificar el funcionamiento de Tor Brows
 - Integración con IberOSINT.
 - Arquitectura modular.
 - Preparado para futuras ampliaciones.
+
+Todas estas funciones buscan minimizar el tiempo necesario para acceder a recursos relevantes durante una investigación.
 
 ---
 
