@@ -79,11 +79,6 @@ Entre sus principales escenarios de utilización destacan:
 
 ---
 
-
----
-
----
-
 # Arquitectura
 
 IberoTOR ha sido desarrollado como un entorno de investigación modular basado en Tor Browser.
