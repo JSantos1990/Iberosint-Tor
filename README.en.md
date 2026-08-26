@@ -79,10 +79,6 @@ Typical use cases include:
 
 ---
 
----
-
----
-
 # Architecture
 
 IberoTOR follows a modular architecture built around Tor Browser, providing investigators with a centralized workspace for accessing both traditional OSINT resources and Tor-exclusive services.
