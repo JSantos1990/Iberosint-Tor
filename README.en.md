@@ -303,7 +303,7 @@ cd Iberosint-Tor
 
 ### 3. Launch IberoTOR
 
-Open Tor Browser and load the main file of the customized IberoTOR homepage 'Index.html' from the cloned repository.
+Open Tor Browser and load the main file of the customized IberoTOR homepage 'index.html' from the cloned repository.
 
 You can also access the published version of IberoTOR directly at:
 
