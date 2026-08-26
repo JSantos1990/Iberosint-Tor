@@ -303,7 +303,7 @@ cd Iberosint-Tor
 
 ### 3. Ejecutar IberoTOR
 
-Abra Tor Browser y cargue el archivo principal de la homepage 'Index.html' de IberoTOR desde el repositorio clonado.
+Abra Tor Browser y cargue el archivo principal de la homepage 'index.html' de IberoTOR desde el repositorio clonado.
 
 También puede abrir directamente la versión publicada de IberoTOR desde:
 
