@@ -301,6 +301,15 @@ Acceder al directorio del proyecto:
 cd Iberosint-Tor
 ```
 
+Comprobar que el repositorio se ha descargado correctamente:
+
+```bash
+ls
+```
+Deberá aparecer el contenido del repositorio, incluyendo el archivo principal index.html.
+
+
+
 ### 3. Ejecutar IberoTOR
 
 Abra Tor Browser y cargue el archivo principal de la homepage 'index.html' de IberoTOR desde el repositorio clonado.
