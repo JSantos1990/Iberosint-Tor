@@ -284,7 +284,6 @@ sudo apt update
 Instalar Tor Browser Launcher:
 
 ```bash
-cd ~/Descargas
 wget https://www.torproject.org/dist/torbrowser/15.0.21/tor-browser-linux64-15.0.21_ALL.tar.xz
 tar -xf tor-browser-linux64-15.0.21_ALL.tar.xz
 ```
