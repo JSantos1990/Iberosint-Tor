@@ -286,23 +286,21 @@ Instalar Tor Browser Launcher:
 ```bash
 cd ~/Descargas
 wget https://www.torproject.org/dist/torbrowser/15.0.21/tor-browser-linux64-15.0.21_ALL.tar.xz
-tar -xf tor-browser-linux64-15.0.21_ALL.tar.xz
-cd tor-browser
-./start-tor-browser.desktop
 ```
 
-### 2. Clonar el repositorio
+### 2. Descomprimir el paquete
 
 Clonar el repositorio oficial de IberoTOR:
 
 ```bash
-git clone https://github.com/JSantos1990/Iberosint-Tor.git
+cd ~/Descargas
+tar -xf tor-browser-linux64-15.0.21_ALL.tar.xz
 ```
 
-Acceder al directorio del proyecto:
+Esto creará la carpeta:
 
 ```bash
-cd Iberosint-Tor
+~/Descargas/tor-browser
 ```
 
 Comprobar que el repositorio se ha descargado correctamente:
@@ -312,14 +310,42 @@ ls
 ```
 Deberá aparecer el contenido del repositorio, incluyendo el archivo principal index.html.
 
+### 3. Primer arranque de Tor-browser
+
+```bash
+cd ~/Descargas/tor-browser
+./start-tor-browser.desktop
+```
+Con este comando se abrirá Tor Browser.
+
+### 4. Crear un comando para lanzarlo desde cualquier terminal
+
+Editar ~/.bashrc:
+
+```bash
+nano ~/.bashrc
+```
+
+Añadir al final del archivo:
+
+```bash
+alias torbrowser='~/Descargas/tor-browser/start-tor-browser.desktop'
+```
+
+Recargar la configuración:
+
+```bash
+source ~/.bashrc
+```
 
 
-### 3. Ejecutar IberoTOR
+
+### 5. Ejecutar IberoTOR
 
 Iniciar Tor Browser desde la terminal:
 
 ```bash
-torbrowser-launcher
+torbrowser
 ```
 Una vez abierto Tor Browser, acceder a la configuración del navegador y establecer el archivo `index.html` de IberoTOR como página de inicio.
 
@@ -327,13 +353,13 @@ Para ello:
 
 1. Abrir el menú de Tor Browser y acceder a **Ajustes**.
 2. Acceder a la sección **Inicio**.
-3. En el apartado de **Página de inicio**, seleccionar la opción para utilizar una página de inicio personalizada.
-4. Indicar la ubicación del archivo `index.html` descargado previamente al clonar el repositorio.
+3. En el apartado de **Página de inicio**, seleccionar la opción para utilizar una URL concreta.
+4. Indicar la URL `https://jsantos1990.github.io/Iberosint-Tor/`.
 5. Guardar los cambios.
 
 A partir de este momento, Tor Browser cargará automáticamente IberoTOR como página de inicio cada vez que se inicie.
 
-También puede abrir directamente la versión publicada de IberoTOR desde:
+
 
 https://jsantos1990.github.io/Iberosint-Tor/
 
