@@ -303,13 +303,6 @@ Esto creará la carpeta:
 ~/Descargas/tor-browser
 ```
 
-Comprobar que el repositorio se ha descargado correctamente:
-
-```bash
-ls
-```
-Deberá aparecer el contenido del repositorio, incluyendo el archivo principal index.html.
-
 ### 3. Primer arranque de Tor-browser
 
 ```bash
@@ -347,21 +340,17 @@ Iniciar Tor Browser desde la terminal:
 ```bash
 torbrowser
 ```
-Una vez abierto Tor Browser, acceder a la configuración del navegador y establecer el archivo `index.html` de IberoTOR como página de inicio.
+Una vez abierto Tor Browser, acceder a la configuración del navegador y establecer la URL `https://jsantos1990.github.io/Iberosint-Tor/` de IberoTOR como página de inicio.
 
 Para ello:
 
 1. Abrir el menú de Tor Browser y acceder a **Ajustes**.
 2. Acceder a la sección **Inicio**.
-3. En el apartado de **Página de inicio**, seleccionar la opción para utilizar una URL concreta.
+3. En el apartado de **Página de inicio** y **nuevas ventanas**, seleccionar la opción para utilizar una URL personalizada.
 4. Indicar la URL `https://jsantos1990.github.io/Iberosint-Tor/`.
 5. Guardar los cambios.
 
 A partir de este momento, Tor Browser cargará automáticamente IberoTOR como página de inicio cada vez que se inicie.
-
-
-
-https://jsantos1990.github.io/Iberosint-Tor/
 
 IberoTOR puede utilizarse de forma independiente o como parte del ecosistema IberOSINT.
 
