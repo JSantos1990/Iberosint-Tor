@@ -317,15 +317,15 @@ Iniciar Tor Browser desde la terminal:
 ```bash
 torbrowser-launcher
 ```
-Una vez abierto Tor Browser, acceder a la configuración del navegador y establecer el archivo 'index.html' de IberoTOR como página de inicio.
+Una vez abierto Tor Browser, acceder a la configuración del navegador y establecer el archivo `index.html` de IberoTOR como página de inicio.
 
 Para ello:
 
-Abrir el menú de Tor Browser y acceder a Ajustes.
-En la sección General, localizar el apartado Página de inicio.
-Seleccionar la opción para utilizar una página de inicio personalizada.
-Indicar la ubicación del archivo index.html descargado previamente al clonar el repositorio.
-Guardar los cambios.
+1. Abrir el menú de Tor Browser y acceder a **Ajustes**.
+2. Acceder a la sección **Inicio**.
+3. En el apartado de **Página de inicio**, seleccionar la opción para utilizar una página de inicio personalizada.
+4. Indicar la ubicación del archivo `index.html` descargado previamente al clonar el repositorio.
+5. Guardar los cambios.
 
 A partir de este momento, Tor Browser cargará automáticamente IberoTOR como página de inicio cada vez que se inicie.
 
