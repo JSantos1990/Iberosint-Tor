@@ -281,33 +281,78 @@ Update the system repositories:
 sudo apt update
 ```
 
-Install Tor Browser Launcher:
+Install Tor Browser:
 
 ```bash
-sudo apt install torbrowser-launcher
+cd ~/Downloads
+wget https://www.torproject.org/dist/torbrowser/15.0.21/tor-browser-linux64-15.0.21_ALL.tar.xz
 ```
 
-### 2. Clone the repository
+### 2. Extract the package
 
-Clone the official IberoTOR repository:
+Extract the downloaded Tor Browser package:
 
 ```bash
-git clone https://github.com/JSantos1990/Iberosint-Tor.git
+cd ~/Downloads
+tar -xf tor-browser-linux64-15.0.21_ALL.tar.xz
 ```
 
-Navigate to the project directory:
+This will create the folder:
 
 ```bash
-cd Iberosint-Tor
+~/Downloads/tor-browser
 ```
 
-### 3. Launch IberoTOR
+### 3. First launch of Tor Browser
 
-Open Tor Browser and load the main file of the customized IberoTOR homepage 'index.html' from the cloned repository.
+```bash
+cd ~/Downloads/tor-browser
+./start-tor-browser.desktop
+```
 
-You can also access the published version of IberoTOR directly at:
+This command will open Tor Browser.
 
-https://jsantos1990.github.io/Iberosint-Tor/
+### 4. Create a command to launch it from any terminal
+
+Edit ~/.bashrc:
+
+```bash
+nano ~/.bashrc
+```
+
+Add the following line at the end of the file:
+
+```bash
+alias torbrowser='~/Downloads/tor-browser/start-tor-browser.desktop'
+```
+
+Reload the configuration:
+
+```bash
+source ~/.bashrc
+```
+
+
+
+### 5. Run IberoTOR
+
+Start Tor Browser from the terminal:
+
+```bash
+torbrowser
+```
+
+Once Tor Browser is open, access the browser settings and set the IberoTOR URL `https://jsantos1990.github.io/Iberosint-Tor/` as the homepage.
+
+To do this:
+
+1. Open the Tor Browser menu and go to **Settings**.
+2. Go to the **Home** section.
+3. Under **Homepage and new windows**, select the option to use a custom URL.
+4. Enter the URL `https://jsantos1990.github.io/Iberosint-Tor/`.
+5. Save the changes.
+
+From this point on, Tor Browser will automatically load IberoTOR as the homepage every time it is launched.
 
 IberoTOR can be used independently or as part of the IberOSINT ecosystem.
 
